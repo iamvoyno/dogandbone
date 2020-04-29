@@ -81,7 +81,7 @@ class Fence:
 
 
 
-#Keeping track of where the dogs are and checking if the damn cell is free 
+#Keeping track of where the dogs are and checking if the cell is free 
 dogPositions = [redDog.cellPos , blueDog.cellPos]
 def cellFree(cell):
     cellOccupied = False 
@@ -384,7 +384,7 @@ def addOnBoard(gridPos1, gridPos2, align):
 
 
 def checkAdj(cell1, cell2, allignment):
-    ''' check adjacensy and dislpay the color- fucking spellings ''' 
+    ''' check adjacensy and dislpay the color''' 
 
     global selectedColor 
     proceed = False
